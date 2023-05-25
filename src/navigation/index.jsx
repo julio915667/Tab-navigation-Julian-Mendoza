@@ -1,15 +1,13 @@
-import { NavigationContainer } from '@react-navigation/native'
-import React from 'react'
-import TabsContainer from './tabs/index.jsx'
-import { View } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
+import TabsContainer from './tabs/index';
 
 
 const NavegationContainer = () => {
   return (
-<View>
-    <TabsContainer/>
-</View>
-  )
-}
+    <NavigationContainer>
+   <TabsContainer/>
+    </NavigationContainer>
+  );
+};
 
-export default NavegationContainer
+export default NavegationContainer;

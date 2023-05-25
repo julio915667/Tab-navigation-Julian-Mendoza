@@ -6,11 +6,11 @@ import { Cart } from '../../screens'
 const Stack = createNativeStackNavigator()
  const CartNavigator = () => {
   return (
-    <NavigationContainer>
+ 
         <Stack.Navigator initialRouteName='Cart'>
             <Stack.Screen name="Cart" component={Cart}/>
         </Stack.Navigator>
-    </NavigationContainer>
+  
   )
 }
 export default CartNavigator

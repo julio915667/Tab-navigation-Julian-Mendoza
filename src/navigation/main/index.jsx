@@ -13,7 +13,7 @@ const MainNavigator = ()=>{
     const homeTitle = `${nameApp} - Home`;
     const productsTitle = `${nameApp} - Products`;
     return(
-        <NavigationContainer>
+    
         <Stack.Navigator initialRouteName="Home" screenOptions={
            {
             headerStyle:{
@@ -39,7 +39,7 @@ const MainNavigator = ()=>{
 />
 
         </Stack.Navigator>
-        </NavigationContainer>
+      
     )
 }
 export default MainNavigator
